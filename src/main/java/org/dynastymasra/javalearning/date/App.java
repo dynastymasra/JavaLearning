@@ -12,8 +12,6 @@ import java.util.ArrayList;
 
 public class App {
 
-    private static ArrayList<String> date = new ArrayList<String>();
-
     /**
      * @param args the command line arguments
      */
