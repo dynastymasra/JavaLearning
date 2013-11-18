@@ -1,6 +1,4 @@
-package org.dynastymasra.javalearning.date;
-
-import java.util.ArrayList;
+package org.dynastymasra.javalearning.random;
 
 /**
  * Author   : Dynastymasra
@@ -17,8 +15,11 @@ public class App {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        DateConvertion dateConvertion = new DateConvertion();
-        dateConvertion.dateConvertion("12-12-2012");
+        RandomString randomString = new RandomString();
+
+        System.out.println("Value of String Random");
+        for (int value = 0; value < 5; value++) {
+            System.out.println("Result String Random[" + value + "]:" + randomString.getRandom());
+        }
     }
 }
-
